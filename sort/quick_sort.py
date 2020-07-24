@@ -1,8 +1,10 @@
 '''
+
 'getpivot' function is defined here to find the best pivot element in order to reduce the worst case complexity which is O(n*n)
 Average performance :	O(n log n)
 Best-case performance :	O(n log n) (simple partition) or O(n) (three-way partition and equal keys)
 Worst-case performance : O(n2)
+here A is the input array which we pass to the functions as argument
 
 '''
 def getPivot(A):
