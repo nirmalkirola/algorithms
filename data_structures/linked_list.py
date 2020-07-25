@@ -3,7 +3,6 @@ Linked List implementation in python.
 
 '''
 
-
 class node:
     def __init__(self, data=None):
         self.data = data
@@ -65,10 +64,3 @@ class linked_list:
                 last_node.next = cur_node.next
                 return
             cur_idx += 1
-
-
-my_list = linked_list()
-my_list.append(4)
-my_list.append(78)
-my_list.display()
-print("element at index 1 : " ,my_list.get(1))
