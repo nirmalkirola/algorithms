@@ -1,3 +1,11 @@
+'''
+Doubly Linked List implementation using Python.
+Here, Prepend function is used to insert element from the left side of this data structure.
+Append function is used to insert element from the right side of this data structure.
+
+'''
+
+
 class Node:
     def __init__(self, data = None):
         self.data = data
