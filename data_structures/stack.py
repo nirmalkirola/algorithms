@@ -1,7 +1,7 @@
 '''
 Stack implementation in python.
 Note:
-     If you want to know the element which is popped from the queue, just remove '#' from lines 26 and 28.
+     If you want to know the element which is popped from the stack, just remove '#' from lines 26 and 28.
      GetTopElement function is used here to print the top element and its index from the stack.
      The topmost element of the stack is also printed while using Display function for printing the stack.
      
