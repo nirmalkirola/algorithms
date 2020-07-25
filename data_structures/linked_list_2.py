@@ -5,6 +5,7 @@ Usage of linked list class and its function is given from line 36.
 
 '''
 
+
 class Node:
     def __init__(self,data):
         self.data = data
