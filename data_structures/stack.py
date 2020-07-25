@@ -1,7 +1,9 @@
 '''
 Stack implementation in python.
 Note:
-     If you want to know the element which is popped from the queue, just remove '#' from lines 23 and 25.
+     If you want to know the element which is popped from the queue, just remove '#' from lines 26 and 28.
+     GetTopElement function is used here to print the top element and its index from the stack.
+     The topmost element of the stack is also printed while using Display function for printing the stack.
      
 '''     
 
@@ -32,7 +34,7 @@ class Stack:
             print(index)
             print(self.stack[index])
     
-    def display(self):
+    def Display(self):
         if len(self.stack)==0:
             print("Stack is Empty")
         else:
